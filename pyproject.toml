@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "calign"
-version = "1.0.0"
+version = "1.0.1"
 description = "A Python package for aligning epitopes to protein sequences"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -19,14 +19,13 @@ authors = [
     {name = "Leonardo Augusto de Almeida", email = "leonardo.almeida@unifal-mg.edu.br"},
 ]
 
-
 keywords = ["bioinformatics", "epitope", "alignment", "protein", "sequence"]
 
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
-    "License :: proprietary software",
+    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
