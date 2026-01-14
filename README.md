@@ -5,9 +5,9 @@
 
 ## This script demonstrates different ways to use the align_epitopes function.
 
-# =============================================================================
+# ==================================
 # EXAMPLE 1: Basic Usage (Default settings)
-# =============================================================================
+# ==================================
 
 from calign import align_epitopes
 
@@ -29,9 +29,9 @@ print(f"Output files generated:")
 print(f"  - {result['output_txt']}")
 print(f"  - {result['output_png']}")
 
-# =============================================================================
+# ==============================
 # EXAMPLE 2: Custom Output Paths
-# =============================================================================
+# ==============================
 print("\n" + "=" * 80)
 print("EXAMPLE 2: Custom Output Paths")
 print("=" * 80)
@@ -47,9 +47,9 @@ result = align_epitopes(
 
 print(f"✓ High-resolution outputs saved to 'results/' folder")
 
-# =============================================================================
+# ===================================================
 # EXAMPLE 3: Programmatic Access (No Files Generated)
-# =============================================================================
+# ==================================================
 print("\n" + "=" * 80)
 print("EXAMPLE 3: Programmatic Access (No Files)")
 print("=" * 80)
@@ -69,9 +69,9 @@ print("\nAligned layers:")
 for i, layer in enumerate(result['aligned_layers'], 1):
     print(f"  Layer {i}: {layer[:50]}...")  # Show first 50 characters
 
-# =============================================================================
+# =========================
 # EXAMPLE 4: Display Plot
-# =============================================================================
+# =========================
 print("\n" + "=" * 80)
 print("EXAMPLE 4: Display Plot Interactively")
 print("=" * 80)
@@ -84,9 +84,9 @@ result = align_epitopes(
 
 print("✓ Plot displayed (close the window to continue)")
 
-# =============================================================================
+# ==============================
 # EXAMPLE 5: Using with Pathlib
-# =============================================================================
+# =============================
 print("\n" + "=" * 80)
 print("EXAMPLE 5: Using with Pathlib")
 print("=" * 80)
@@ -106,9 +106,9 @@ result = align_epitopes(
 
 print(f"✓ Files saved to: {output_dir.absolute()}")
 
-# =============================================================================
+# ==========================
 # EXAMPLE 6: Error Handling
-# =============================================================================
+# ==========================
 print("\n" + "=" * 80)
 print("EXAMPLE 6: Error Handling")
 print("=" * 80)
@@ -129,9 +129,9 @@ try:
 except ValueError as e:
     print(f"✓ Correctly caught error: {e}")
 
-# =============================================================================
+# ========================================
 # EXAMPLE 7: Using in a Loop (Multiple Analyses)
-# =============================================================================
+# =======================================
 print("\n" + "=" * 80)
 print("EXAMPLE 7: Batch Processing")
 print("=" * 80)
@@ -156,4 +156,4 @@ print("All examples completed!")
 print("=" * 80)
 
 #   How to use in jupyter notebook
-[see a notebook](notebooks/how_to_use_calign.ipynb)
+[see a notebook](https://colab.research.google.com/github/labiomol/Calign-development/blob/main/notebooks/proteina.ipynb)
