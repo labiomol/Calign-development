@@ -156,4 +156,4 @@ print("All examples completed!")
 print("=" * 80)
 
 #   How to use in jupyter notebook
-[see a notebook](https://colab.research.google.com/github/labiomol/Calign-development/blob/main/notebooks/proteina.ipynb)
+[see a notebook](notebooks/proteina.ipynb)
