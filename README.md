@@ -47,9 +47,9 @@ result = align_epitopes(
 
 print(f"✓ High-resolution outputs saved to 'results/' folder")
 
-# ===================================================
+# ===========================
 # EXAMPLE 3: Programmatic Access (No Files Generated)
-# ==================================================
+# ===========================
 print("\n" + "=" * 80)
 print("EXAMPLE 3: Programmatic Access (No Files)")
 print("=" * 80)
@@ -84,9 +84,9 @@ result = align_epitopes(
 
 print("✓ Plot displayed (close the window to continue)")
 
-# ==============================
+# ========================
 # EXAMPLE 5: Using with Pathlib
-# =============================
+# ========================
 print("\n" + "=" * 80)
 print("EXAMPLE 5: Using with Pathlib")
 print("=" * 80)
@@ -129,9 +129,9 @@ try:
 except ValueError as e:
     print(f"✓ Correctly caught error: {e}")
 
-# ========================================
+# =========================
 # EXAMPLE 7: Using in a Loop (Multiple Analyses)
-# =======================================
+# =========================
 print("\n" + "=" * 80)
 print("EXAMPLE 7: Batch Processing")
 print("=" * 80)
