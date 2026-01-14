@@ -42,7 +42,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/calign"
-Documentation = "https://github.com/yourusername/calign#readme"
-Repository = "https://github.com/yourusername/calign"
-Issues = "https://github.com/yourusername/calign/issues"
+Homepage = "https://github.com/labiomol/Calign-development"
+Documentation = "https://github.com/labiomol/Calign-development/blob/main/README.md"
+Repository = "https://github.com/labiomol/Calign-development"
+Issues = "https://github.com/labiomol/Calign-development/issues"
