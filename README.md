@@ -157,5 +157,3 @@ print("=" * 80)
 
 #   How to use in jupyter notebook
 [see a notebook](https://github.com/labiomol/Calign-development/blob/main/notebooks/how_to_use_calign.ipynb)
-or
-[Open in Google Colab](https://colab.research.google.com/github/labiomol/Calign-development/blob/main/notebooks/how_to_use_calign.ipynb)
